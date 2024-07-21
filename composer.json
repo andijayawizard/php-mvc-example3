@@ -1,0 +1,22 @@
+{
+    "name": "andijaya/php-mvc-example3",
+    "description": "how to create php mvc from scratch",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        },
+        "classmap": [
+            "app/"
+        ]
+    },
+    "authors": [
+        {
+            "name": "andijayawizard",
+            "email": "andijayawizard@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/routing": "^7.1",
+        "symfony/http-foundation": "^7.1"
+    }
+}
