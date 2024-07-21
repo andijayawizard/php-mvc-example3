@@ -18,5 +18,8 @@
     "require": {
         "symfony/routing": "^7.1",
         "symfony/http-foundation": "^7.1"
+    },
+    "require-dev": {
+        "robmorgan/phinx": "^0.16.1"
     }
 }

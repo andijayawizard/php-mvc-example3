@@ -9,8 +9,9 @@
   <div class="container-fluid">
   <?php require_once 'navbar.php';?>
     <section>
-        <h1>Homepage</h1>
+        <h1>About Us</h1>
         <p>
+            tentang kami
             <a href="<?php echo $routeToProduct ?>">Check the first product</a>
         </p>
     <section>

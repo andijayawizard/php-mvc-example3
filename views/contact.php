@@ -9,12 +9,17 @@
   <div class="container-fluid">
   <?php require_once 'navbar.php';?>
     <section>
-        <h1>Homepage</h1>
+        <h1>Contact Us</h1>
+        <div>
+          for more info, please contact us at: <br>
+          email: <?=$email?> <br>
+          phone: <?=$phone?> <br>
+        </div>
         <p>
             <a href="<?php echo $routeToProduct ?>">Check the first product</a>
         </p>
     <section>
-    <?php require_once 'footer.php';?>
+    <?php require_once 'footer.php';?>    
   </div>
 </body>
 
